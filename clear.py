@@ -1,4 +1,4 @@
-# Para iniciar com o windows, dê win + r e coloque "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup"
+# Para iniciar com o windows, dê win + r e coloque "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup" e coloque seu arquivo para iniciar junto com o win
 
 
 import os
