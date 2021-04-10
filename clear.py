@@ -14,19 +14,19 @@ def upgrade():
 	
 upgrade()
 os.system("title Cleaner")
-
 delay = 60 # Coloque seu Delay aqui (segundos)
-
 # não mude nada daqui pra frente
 contador = 0 
-while True:
-	os.system("cls")
-	os.system(f"del /S /Q /F C:\\Windows\\Temp")
-	os.system("cls")
-	os.system(f"del /S /Q /F C:\\Users\\vinicius\\AppData\\Local\\Temp")
-	os.system("cls")
-	contador = contador +1
-	print(f"[+] levas de limpeza: {contador}")
-	time.sleep(delay)
+main()
+def main():
+	while True:
+	 os.system("cls")
+         os.system(f"del /S /Q /F C:\\Windows\\Temp")
+	 os.system("cls")
+	 os.system(f"del /S /Q /F C:\\Users\\vinicius\\AppData\\Local\\Temp")
+	 os.system("cls")
+	 contador = contador +1
+	 print(f"[+] levas de limpeza: {contador}")
+	 time.sleep(delay)
 
 	
