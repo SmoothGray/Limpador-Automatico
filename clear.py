@@ -1,13 +1,14 @@
 # Para iniciar com o windows, dê win + r e coloque "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup" e coloque seu arquivo para iniciar junto com o win
 
 
-import os
-import time
+import os # não mude nada aqui
+import time # não mude nada aqui
 
 os.system("title Cleaner")
 
+delay = 60 # Coloque seu Delay aqui (segundos)
 
-delay = 60 #Coloque seu Delay aqui (segundos)
+# não mude nada daqui pra frente
 contador = 0 
 while True:
 	os.system("cls")
@@ -18,3 +19,5 @@ while True:
 	contador = contador +1
 	print(f"[+] levas de limpeza: {contador}")
 	time.sleep(delay)
+
+	
