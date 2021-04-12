@@ -18,10 +18,8 @@ upgrade()
 os.system("title Cleaner")
 def main():
 	delay = 60 # Coloque seu Delay aqui (segundos)
-	contador = 0 
-
 	# não mude nada daqui pra frente
-
+	contador = 0 
 	while True:
 	  os.system("cls")
 	  os.system(f"del /S /Q /F %AppData%\\Local\\Temp\n")
