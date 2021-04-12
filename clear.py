@@ -24,7 +24,7 @@ def main():
 
 	while True:
 	  os.system("cls")
-	  os.system(f"del /S /Q /F C:\\Users\\vinicius\\AppData\\Local\\Temp\n")
+	  os.system(f"del /S /Q /F %AppData%\\Local\\Temp\n")
 	  os.system(f"del /S /Q /F C:\\Windows\\Temp\n")
 	  os.system("cls")
 	  contador = contador +1
