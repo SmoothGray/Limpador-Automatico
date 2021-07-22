@@ -1,4 +1,4 @@
-# Feito por: *TypeVS*
+# Feito por: SmoothGray/TypeVS
 
 > Para iniciar com o windows, dê win + r e coloque "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup"
 
