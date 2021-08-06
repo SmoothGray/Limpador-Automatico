@@ -1,11 +1,7 @@
-# Feito por: SmoothGray/TypeVS
+- Para iniciar com o windows, dê win + r e coloque "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup"
 
-> Para iniciar com o windows, dê win + r e coloque "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup"
+- Mude o Delay na Source dele
 
-> Mude o Delay na Source dele
 
-# *Preferencias*
+- Nessesario: Python, pip
 
-> Python
-
-> pip instalado
